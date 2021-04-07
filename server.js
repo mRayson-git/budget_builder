@@ -19,6 +19,9 @@ connectDB();
 // Set static folder for built angular front end
 server.use(express.static(path.join(__dirname, 'public')));
 
+// Routes for rest api
+server.use('/api/v1/profiles', require('./routes/v1/profiles'));
+
 // Start server
 server.listen(3001, (err) => {
     if (err) {

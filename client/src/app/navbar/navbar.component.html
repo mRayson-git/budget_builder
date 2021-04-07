@@ -6,12 +6,13 @@
             <label for="profile" class="me-2">Profile:</label>
             <select name="profile" id="profile" class="form-select me-2">
                 <option value="">N/A</option>
+                <option *ngFor="let profile of profiles">{{ profile.username }}</option>
             </select>
-            <button class="btn">
+            <a class="btn" routerLink="/register">
                 <svg class="bi" width="24" height="24" fill="currentColor">
                     <use xlink:href="assets/bootstrap-icons.svg#plus-circle"/>
                 </svg>
-            </button>
+            </a>
         </form>
     </div>
 </nav>
