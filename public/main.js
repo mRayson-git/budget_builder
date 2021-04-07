@@ -120,7 +120,7 @@ class WelcomepageComponent {
     }
 }
 WelcomepageComponent.ɵfac = function WelcomepageComponent_Factory(t) { return new (t || WelcomepageComponent)(); };
-WelcomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WelcomepageComponent, selectors: [["app-welcomepage"]], decls: 34, vars: 0, consts: [[1, "container", "mt-5"], [1, "row", "justify-content-center"], [1, "col-sm-12", "col-md-6"], [1, "display-1", "text-center"], [1, "text-success"], [1, "display-4", "text-end", "fw-light"], [1, "row", "mt-5"], [1, "col"], [1, "card"], [1, "card-body"], [1, "display-5"]], template: function WelcomepageComponent_Template(rf, ctx) { if (rf & 1) {
+WelcomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WelcomepageComponent, selectors: [["app-welcomepage"]], decls: 34, vars: 0, consts: [[1, "container", "mt-5"], [1, "row", "justify-content-center"], [1, "col-sm-12", "col-md-6"], [1, "display-1", "text-start"], [1, "text-success"], [1, "display-4", "text-end", "fw-light"], [1, "row", "mt-5"], [1, "col-sm-12", "col-md-4", "mt-3"], [1, "card"], [1, "card-body"], [1, "display-5"]], template: function WelcomepageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
