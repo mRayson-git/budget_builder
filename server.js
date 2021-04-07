@@ -20,7 +20,7 @@ connectDB();
 server.use(express.static(path.join(__dirname, 'public')));
 
 // Start server
-server.listen(3000, (err) => {
+server.listen(3001, (err) => {
     if (err) {
         console.log(err);
     } else {
