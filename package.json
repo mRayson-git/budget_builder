@@ -1,0 +1,31 @@
+{
+  "name": "budget_builder",
+  "version": "1.0.0",
+  "description": "Web app to build budget",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mRayson-git/budget_builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mRayson-git/budget_builder/issues"
+  },
+  "homepage": "https://github.com/mRayson-git/budget_builder#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.23.0"
+  }
+}
