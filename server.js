@@ -16,6 +16,9 @@ server.use(express.json());
 // Make connection with the database
 connectDB();
 
+// Set static folder for built angular front end
+server.use(express.static(path.join(__dirname, 'public')));
+
 // Start server
 server.listen(3000, (err) => {
     if (err) {
